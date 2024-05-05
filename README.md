@@ -18,3 +18,17 @@ To do so, go through below steps
 
 - first make your local repo upto date with my repo  ( use : git pull upstream main )
 - then make your remote repo upto date ( use : git push origin main )
+
+## Steps to run The backend file
+
+- cd to backend 
+- npm i
+- configure .env file
+    PORT = 5000
+    NODE_ENV = development
+    MONGO_URL = mongodb+srv://Nvn_2924:Jimmy%4029012004@cluster0.pxwydzu.mongodb.net/
+    JWT_SECRET =
+- For JWT_SECRET open gitbash type this command
+  openssl rand -base64 32
+
+  
